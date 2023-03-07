@@ -1,2 +1,2 @@
 # rs485Expo
-Presentación sobre RS-485 can bus
+*Presentación sobre RS-485 can bus*
