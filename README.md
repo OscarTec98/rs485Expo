@@ -29,10 +29,13 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 ## Características principales.
 ☑️ Transmision de datos bidireccional semidúplex.
+ - No se puede transmitir y recibir datos al mismo tiempo.
 
 ☑️ Canal de comunicación simétrico.
+ - Mayor estabilidad de la señal y elimina la radiación electromagnética generada por la señal útil.
 
 ☑️ Multipunto.
+ - Dependiendo de la información enviada, ninguno o varios nodos de la línea responden al maestro.
 
 ## Ventajas
 ✔️ Intercambio de datos bidireccional a través de un par de hilos trenzados.
