@@ -2,12 +2,12 @@
 ## POR: OSCAR GARCIA
 *Presentación sobre RS-485 y can bus*
 
-<center>
+
   <figure>
   <img src = "https://m.media-amazon.com/images/I/71bvQ4m6yDL._AC_SL1500_.jpg" width = 500 height = 400>
     <figcaption>RS-485 CAN HAT</figcaption>
     </figure>
-</center>
+
 
 ##  RS-485 CAN HAT
 Es un estándar de comunicaciones muy utilizado en aplicaciones de adquisición y control de datos.
