@@ -46,4 +46,13 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 ✔️ Alta velocidad de transmisión
 
+| Protocolo | RS232 | RS485 |
+| --- | --- | --- |
+| Tipo de protocolo | Dúplex | Semi-dúplex |
+| Tipo de señal | Desbalanceado | Balanceado |
+| Número de dispositivos | 1 transmisor y 1 receptor | Hasta 32 transmisores y 43 receptores |
+| Transmisión máxima de datos | 19,2 Kbps a 15 metros | 10 Mbps a 15 metros |
+| Longitud máxima del cable | Aproximadamente 15,25 metros a 19,2 Kbps | Aproximadamente 1220 metros a 100 Kbps |
+| Corriente de salida | 500mA | 250mA |
+| Voltaje mínimo de entrada | +/- 3V | 0,2V diferencial |
 
