@@ -29,11 +29,16 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 ## Ventajas
 ✔️ Intercambio de datos bidireccional a través de un par de hilos trenzados.
+
 ✔️ Admite varios tranceptores conectados a la misma línea, es decir, permite crear una red.
+
 ✔️ Gran longitud de la línea de comunicación (4000ft)
+
 ✔️ Alta velocidad de transmisión
 
 ## Características principales.
 ☑️ Transmision de datos bidireccional semidúplex.
+
 ☑️ Canal de comunicación simétrico.
+
 ☑️ Multipunto.
