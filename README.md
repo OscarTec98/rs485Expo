@@ -46,6 +46,7 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 ✔️ Alta velocidad de transmisión
 
+## DATOS EXTRAS
 | Protocolo | RS485 |
 | --- | --- |
 | Tipo de protocolo | Semi-dúplex |
@@ -55,5 +56,13 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 | Longitud máxima del cable | Aproximadamente 1220 metros a 100 Kbps |
 | Corriente de salida | 250mA |
 | Voltaje mínimo de entrada | 0,2V diferencial |
+
+## Aplicaciones.
+💻 El uso de señales RS-485 se utilizan en una amplia gama de sistemas informáticos y de automatización.
+
+✈️ Tambien se puede usar para comunicaciones de datos de baja velocidad en cabinas de aviones comerciales ya que requiere de un cableado minimo y puede compartir el cableado entre varios asientos, reduciendo el peso.
+
+🎦 En teatros y salas de espectaculos para controlar la iluminación y otros sistemas como la interconexión de audio digital.
+
 
 
