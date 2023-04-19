@@ -3,7 +3,45 @@
 *Presentación sobre RS-485 y can bus*
 
 ##  RS-485 CAN HAT
-<script src="https://gist.github.com/OscarTec98/734e088a2ac9bd3592bdfd8d2c023f0b.js"></script>
+- colors = ['#7c4dff', '#0091ea', '#ff9100', '#ff1744']
+
+- colors.each do |color|
+  .hello{style: "color: #{color}"} RS-485
+  
+  .hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25vw;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  font-family: "Righteous", cursive;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+@for $i from 1 through 4 {
+  .hello:nth-of-type(#{$i}) {
+    animation-duration: 2s;
+    animation-delay: 0.8s - ($i / 4);
+  }
+}
+
+@keyframes wave {
+  40%,
+  50% {
+    transform: translate(-50%, -65%) scale(1.05);
+  }
+
+  0%,
+  90%,
+  100% {
+    transform: translate(-50%, -45%) scale(0.95);
+  }
+}
+  
 Es un estándar de comunicaciones muy utilizado en aplicaciones de adquisición y control de datos.
 
   <figure>
