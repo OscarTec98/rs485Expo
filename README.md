@@ -18,8 +18,9 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
     <figcaption>CABLE RS-232</figcaption>
     </figure>
 
-##Su principal función es transportar una señal a través de dos cables
+## Su principal función es transportar una señal a través de dos cables
  ➡️ Uno transmite la señal original
  ⬅️ Y el otro transporta la copia inversa
  > ❗ Este método de transmisión ofrece una gran resistencia a las interferencias en modo común.
+ > 
  > 🦺 El cable de par trenzado puede ser blindado o no.
