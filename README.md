@@ -13,9 +13,13 @@
 Es un estándar de comunicaciones muy utilizado en aplicaciones de adquisición y control de datos.
 Una interfaz estándar de la capa física de comunicación, un método de transmisión de señales, el 1er nivel del modelo OSI. Este protocolo fue creado para ampliar las capacidades físicas de la interfaz RS-232.
 
-<center>
   <figure>
 <img src ="https://www.rhino.mx/wp-content/uploads/2018/03/CARS-1.png" width = 400 height= 400>
     <figcaption>CABLE RS-232</figcaption>
     </figure>
-</center>
+
+##Su principal función es transportar una señal a través de dos cables
+ ➡️ Uno transmite la señal original
+ ⬅️ Y el otro transporta la copia inversa
+ > ❗ Este método de transmisión ofrece una gran resistencia a las interferencias en modo común.
+ > 🦺 El cable de par trenzado puede ser blindado o no.
