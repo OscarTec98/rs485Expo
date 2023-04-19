@@ -25,4 +25,4 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
  > 
  > 🦺 El cable de par trenzado puede ser blindado o no.
 
-<img src = "https://www.eltima.com/images/upload/products/spm/articles/rs/wire.jpg" width =800 height = 400>
+![](https://www.eltima.com/images/upload/products/spm/articles/rs/wire.jpg)
