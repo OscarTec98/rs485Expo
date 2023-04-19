@@ -24,3 +24,5 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
  > ❗ Este método de transmisión ofrece una gran resistencia a las interferencias en modo común.
  > 
  > 🦺 El cable de par trenzado puede ser blindado o no.
+
+<img src = "https://www.eltima.com/images/upload/products/spm/articles/rs/wire.jpg" width =500 height = 400>
