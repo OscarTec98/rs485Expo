@@ -64,6 +64,10 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 🎦 En teatros y salas de espectaculos para controlar la iluminación y otros sistemas como la interconexión de audio digital.
 
+## Comunicación serial entre una Raspberry PI y Arduino Uno utilizando RS-485 
+
+![](https://circuitdigest.com/sites/default/files/projectimage_mic/RS-485-Serial-Communication-between-Raspberry-Pi-and-Arduino-Uno.jpg)
+
 
 # bus CAN
 La Red de Area del Controlador, es un protocolo basado en mensajes diseñado para permitir que las unidades de control electrónico (ECU) de los automóviles actuales, así como otros dispositivos, se comuniquen entre sí de manera confiable y basada en prioridades. Todos los dispositivos reciben mensajes o tramas, por lo que no se requiere de una computadora host.
