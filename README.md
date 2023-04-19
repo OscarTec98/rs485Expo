@@ -77,17 +77,28 @@ Los dispositivos en un bus CAN se denominan "nodos". Cada nodo consta de una CPU
 
 ## Ventajas
 ✔️ Sencillo y de bajo costo
+
 ✔️ Totalmente centralizado
+
 ✔️ Extremadamente robusto
+
 ✔️ Eficiente
+
 ✔️ Reduccion de peso
+
 ✔️ Implementación sencilla
 
 ## Aplicaciones
 🚗 Todo tipo de vehículos
+
 ✈️ Aviones
+
 🛗 Ascensores
+
 🏭 Plantas de fabricación de todo tipo
+
 ⛵ Buques
+
 ⚕️ Equipo médico
+
 🔌 Electrodomésticos
