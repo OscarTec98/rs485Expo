@@ -72,5 +72,22 @@ La Red de Area del Controlador, es un protocolo basado en mensajes diseñado par
 
 CAN-Bus compatible para Arduino.
 
+## Funcionamiento.
+Los dispositivos en un bus CAN se denominan "nodos". Cada nodo consta de una CPU, un controlador CAN y un transceptor, que adapta los niveles de señal de los datos enviados y recibidos por el nodo. Todos los nodos pueden enviar y recibir datos, pero no al mismo tiempo. Los nodos no pueden enviarse datos directamente entre sí. En cambio, envían sus datos a la red, donde están disponibles para cualquier nodo al que se hayan dirigido. El protocolo CAN no tiene pérdidas y utiliza un método de arbitraje bit a bit para resolver disputas en el bus.
 
+## Ventajas
+✔️ Sencillo y de bajo costo
+✔️ Totalmente centralizado
+✔️ Extremadamente robusto
+✔️ Eficiente
+✔️ Reduccion de peso
+✔️ Implementación sencilla
 
+## Aplicaciones
+🚗 Todo tipo de vehículos
+✈️ Aviones
+🛗 Ascensores
+🏭 Plantas de fabricación de todo tipo
+⛵ Buques
+⚕️ Equipo médico
+🔌 Electrodomésticos
