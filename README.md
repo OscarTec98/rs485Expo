@@ -11,7 +11,7 @@ Es un estándar de comunicaciones muy utilizado en aplicaciones de adquisición 
     </figure>
 
 
-Una interfaz estándar de la capa física de comunicación, un método de transmisión de señales, el 1er nivel del modelo OSI. Este protocolo fue creado para ampliar las capacidades físicas de la interfaz RS-232.
+Una interfaz estándar de la capa física de comunicación, un método de transmisión de señales, el 1er nivel del modelo OSI. Este protocolo fue creado para ampliar las capacidades físicas de la interfaz RS-232. La conexión serie EIA-485 es realizada utilizando un cable de dos o tres hilos: un hilo de datos, un hilo con datos invertidos y, a menudo, un hilo cero (tierra, 0 V). De este modo, los transmisores y los receptores intercambian los datos a través de un cable de par trenzado de hilos rígidos de 22 o 24 AWG.
 
   <figure>
 <img src ="https://www.rhino.mx/wp-content/uploads/2018/03/CARS-1.png" width = 400 height= 400>
