@@ -241,3 +241,12 @@ Los dispositivos en un bus CAN se denominan "nodos". Cada nodo consta de una CPU
 ⚕️ Equipo médico
 
 🔌 Electrodomésticos
+
+# Referencias 
+- Weis, O. (2021, 20 octubre). Qué es RS485 - Guía de la Comunicación RS485 [2023]. Electronic Team, Inc. https://www.eltima.com/es/article/rs485-communication-guide/#:~:text=RS-485%20(actualmente%20conocido%20como,de%20la%20interfaz%20RS-232.
+
+- colaboradores de Wikipedia. (2023). TIA-485. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/TIA-485
+
+- ¿Qué es Can Bus (red de área de controlador)? (2023, 13 febrero). Soluciones de Adquisición de Datos (DAQ). https://dewesoft.com/es/blog/que-es-el-bus-can
+
+- RS-485 Serial Communication between Raspberry Pi and Arduino Uno. (s. f.). https://circuitdigest.com/microcontroller-projects/rs485-serial-communication-between-arduino-and-raspberry-pi?fbclid=IwAR0AJsNSA43W04jWK36vFWS284XMIoJ7dAih1xpjg1udpdke1yK4jyRKlzA
