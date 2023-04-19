@@ -3,6 +3,7 @@
 *Presentación sobre RS-485 y can bus*
 
 ##  RS-485 CAN HAT
+<script src="https://gist.github.com/OscarTec98/734e088a2ac9bd3592bdfd8d2c023f0b.js"></script>
 Es un estándar de comunicaciones muy utilizado en aplicaciones de adquisición y control de datos.
 
   <figure>
