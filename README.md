@@ -26,3 +26,4 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
  > 🦺 El cable de par trenzado puede ser blindado o no.
 
 ![](https://www.eltima.com/images/upload/products/spm/articles/rs/wire.jpg)
+#### EJEMPLO DE UNA RED DE COMUNICACIÓN CONSTRUIDA CON LA INTERFAZ RS-485
