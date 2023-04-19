@@ -68,6 +68,140 @@ Una interfaz estándar de la capa física de comunicación, un método de transm
 
 ![](https://circuitdigest.com/sites/default/files/projectimage_mic/RS-485-Serial-Communication-between-Raspberry-Pi-and-Arduino-Uno.jpg)
 
+```
+Master Raspberry Pi Code:
+
+
+import time
+
+import serial
+
+import RPi.GPIO as GPIO
+
+from time import sleep
+
+
+GPIO.setwarnings(False)
+
+GPIO.setmode(GPIO.BOARD)
+
+GPIO.setup(7, GPIO.OUT, initial=GPIO.HIGH)
+
+
+
+send = serial.Serial(
+
+    port='/dev/serial0',
+
+    baudrate = 9600,
+
+    parity=serial.PARITY_NONE,
+
+    stopbits=serial.STOPBITS_ONE,
+
+    bytesize=serial.EIGHTBITS,
+
+    timeout=1
+
+)
+
+
+i = [0,10,45,90,135,180,135,90,45,10,0]
+
+
+while True:
+
+ for x in i:
+
+     send.write(str(x))
+
+     print(x)
+
+     time.sleep(1.5)
+
+
+ 
+
+
+Slave Arduino Code:
+
+
+#include <LiquidCrystal.h>              //Include LCD library for using LCD display functions 
+
+#include <Servo.h>                //For using Servo functions
+
+int enablePin = 2; 
+
+
+LiquidCrystal lcd(8,9,10,11,12,13);      // Define LCD display pins RS,E,D4,D5,D6,D7
+
+
+Servo servo;
+
+
+void setup() 
+
+{
+
+  lcd.begin(16,2);
+
+  lcd.print("CIRCUIT DIGEST");
+
+  lcd.setCursor(0,1);
+
+  lcd.print("RS_485");
+
+  delay(3000);
+
+  lcd.clear();
+
+  Serial.begin(9600);                   // initialize serial at baudrate 9600:
+
+  pinMode(enablePin, OUTPUT);
+
+  delay(10);
+
+  digitalWrite(enablePin, LOW);        //  (Pin 2 always LOW to receive value from Master)
+
+  servo.attach(3);                     //  (Servo PWM pin connected to Pin 3 PWM pin of Arduino)
+
+}
+
+
+void loop() 
+
+
+{                                                  
+
+  while (Serial.available())                   //While have data at Serial port this loop executes
+
+     {
+
+                     
+
+        lcd.clear();
+
+        int angle = Serial.parseInt();            //Receive INTEGER value from Master throught RS-485
+
+        servo.write(angle);                       //Write received value to Servo PWM pin (Setting Angle)
+
+        lcd.setCursor(0,0);
+
+        lcd.print("Angle From RPi ");
+
+        lcd.setCursor(0,1);
+
+        lcd.print(angle);                        //Displays the Angle value
+
+        
+
+    }
+
+ }
+
+
+```
+
 
 # bus CAN
 La Red de Area del Controlador, es un protocolo basado en mensajes diseñado para permitir que las unidades de control electrónico (ECU) de los automóviles actuales, así como otros dispositivos, se comuniquen entre sí de manera confiable y basada en prioridades. Todos los dispositivos reciben mensajes o tramas, por lo que no se requiere de una computadora host.
